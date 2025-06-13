@@ -1,0 +1,51 @@
+sistema-escolar/
+│
+├── app/
+│   ├── controllers/         # Controladores
+│   │   ├── AuthController.php
+│   │   ├── StudentController.php
+│   │   └── AdminController.php
+│   │
+│   ├── models/              # Modelos de datos
+│   │   ├── Database.php
+│   │   ├── Student.php
+│   │   └── User.php
+│   │
+│   └── utils/               # Utilidades
+│       ├── Encryption.php
+│       └── AuthCheck.php
+│
+├── public/                  # Acceso público (DocumentRoot del servidor)
+│   ├── assets/
+│   │   ├── css/             # Estilos
+│   │   ├── js/              # Scripts
+│   │   └── images/          # Imágenes
+│   │
+│   ├── index.php            # Página principal
+│   ├── login.php            # Inicio de sesión
+│   └── dashboard.php        # Panel de control
+│
+├── config/                  # Configuración
+│   ├── env.php              # Variables de entorno (¡NO SUBIR A GIT!)
+│   └── database.php         # Configuración BD
+│
+├── database/
+│   ├── migrations/          # Migraciones BD
+│   └── seeds/               # Datos iniciales
+│
+├── views/                   # Vistas (templates)
+│   ├── students/
+│   │   ├── list.php
+│   │   ├── create.php
+│   │   └── edit.php
+│   │
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── register.php
+│   │
+│   └── templates/           # Componentes reutilizables
+│       ├── header.php
+│       ├── footer.php
+│       └── sidebar.php
+│
+└── vendor/                  # Dependencias (autogenerado por Composer)
