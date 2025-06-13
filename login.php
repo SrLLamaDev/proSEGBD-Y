@@ -34,21 +34,21 @@
 			</div>
 			<?php } ?>
 		  <div class="mb-3">
-		    <label class="form-label">Username</label>
+		    <label class="form-label">Usuario</label>
 		    <input type="text" 
 		           class="form-control"
 		           name="uname">
 		  </div>
 		  
 		  <div class="mb-3">
-		    <label class="form-label">Password</label>
+		    <label class="form-label">Contraseña</label>
 		    <input type="password" 
 		           class="form-control"
 		           name="pass">
 		  </div>
 
 		  <div class="mb-3">
-		    <label class="form-label">Login As</label>
+		    <label class="form-label">Ingresar como</label>
 		    <select class="form-control"
 		            name="role">
 		    	<option value="1">Admin</option>

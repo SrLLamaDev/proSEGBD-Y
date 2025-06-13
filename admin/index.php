@@ -15,8 +15,8 @@
     
     <div class="container mt-5">
         <div class="dashboard-header">
-            <h1>Admin Dashboard</h1>
-            <p>Manage your educational institution efficiently with our comprehensive admin tools</p>
+            <h1>Dashboard del administrador</h1>
+            <p>Administra tu institución educativa de manera eficiente con nuestras completas herramientas de administración</p>
         </div>
         
         <div class="action-grid">
@@ -24,10 +24,10 @@
                 <div class="action-icon">
                     <i class="fas fa-user-md"></i>
                 </div>
-                <h3>Teachers Management</h3>
-                <p>Add, edit or remove teachers and manage their profiles</p>
+                <h3>Administrador de docentes</h3>
+                <p>Administrar al plantel docente</p>
                 <a href="teacher.php" class="btn btn-action">
-                    <i class="fas fa-arrow-right me-2"></i> Manage Teachers
+                    <i class="fas fa-arrow-right me-2"></i> Administrar docentes
                 </a>
             </div>
             
@@ -49,16 +49,16 @@
                 <div class="action-icon">
                     <i class="fas fa-sign-out-alt"></i>
                 </div>
-                <h3>Logout</h3>
-                <p>Securely exit the admin dashboard</p>
+                <h3>Salir</h3>
+                <p>Salir de forma segura del panel de administración</p>
                 <a href="../logout.php" class="btn btn-action">
-                    <i class="fas fa-sign-out-alt me-2"></i> Logout
+                    <i class="fas fa-sign-out-alt me-2"></i> Salir
                 </a>
             </div>
         </div>
         
         <div class="dashboard-footer">
-            <p>© 2023 School Management System. All rights reserved.</p>
+            <p>2025 uwu</p>
         </div>
     </div>
     
